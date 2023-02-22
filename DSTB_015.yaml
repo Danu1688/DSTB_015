@@ -1,3 +1,4 @@
+proxies:
 - name: danu01_LiveONContabo
   type: trojan
   server: beacon.liveon.id
