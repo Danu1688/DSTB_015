@@ -1,4 +1,17 @@
 proxies:
+- name: Laviana1_LiveDO_2
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: a943e0af-9d66-4b9c-bdcb-76bd5a1c0cf1
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: Laviana_LiveDO_1
   type: trojan
   server: circles.asia
