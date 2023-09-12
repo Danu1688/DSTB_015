@@ -1,7 +1,7 @@
 proxies:
 - name: Laviana_LiveDO_1
   type: trojan
-  server: beacon.liveon.id
+  server: circles.asia
   port: 443
   password: ce8b15b8-884b-45de-a70a-e226bbad5d46
   udp: true
