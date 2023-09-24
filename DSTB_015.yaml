@@ -1,4 +1,17 @@
 proxies:
+- name: Laviana1Nusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: a27d712d-a406-40de-97af-96e7b0166db1
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Laviana1Svr1_LiveDO_1
   type: trojan
   server: beacon.liveon.id
